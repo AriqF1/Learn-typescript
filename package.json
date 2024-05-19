@@ -1,0 +1,22 @@
+{
+  "name": "typescript-superpowers",
+  "version": "1.0.0",
+  "description": "Course Typescript Yang Pasti Kepake di Industry",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && esbuild src/index.ts --bundle --outfile=dist/bundle.js",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "dannycahyo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "esbuild": "^0.21.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
