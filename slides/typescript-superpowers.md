@@ -296,3 +296,71 @@ type TreeNode = {
 - Type aliases simplify complex types definitions
 - Interfaces ensure consistent object structures
 - Recursive types enable self-referencing structures
+
+---
+
+# Generics in TypeScript
+
+## Overview
+
+- When to use generic types
+- Declaring generic types
+- Generic functions
+
+---
+
+## When to Use Generics
+
+Generics allow you to write flexible, reusable code that can work with multiple types.
+
+- Functions that work with any type
+- Classes that can store any type of data
+- Interfaces & Type that can be implemented by any type
+
+---
+
+## Generic Functions
+
+```typescript
+function identity<T>(arg: T): T {
+  return arg;
+}
+```
+
+---
+
+## Generic Interfaces & Types
+
+```typescript
+interface GenericIdentityFn {
+  <T>(arg: T): T;
+}
+
+type GenericIdentityType = <T>(arg: T) => T;
+```
+
+---
+
+## Generic Classes
+
+```typescript
+class GenericNumber<T> {
+  zeroValue: T;
+  add: (x: T, y: T) => T;
+}
+```
+
+---
+
+## Summary
+
+- Generics make your code flexible and reusable
+- Use generics in functions, classes, and interfaces
+
+---
+
+## Ready for the Project?
+
+Let's build a Cashier Application using TypeScript!
+
+---
