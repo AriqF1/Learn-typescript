@@ -178,3 +178,64 @@ let strLength: number = (someValue as string).length;
 - Type casting allows you to specify a variable's type
 
 ---
+
+## Ready for More?
+
+Continue to the next section: Variables and Non-Primitive Values
+
+---
+
+# Variables and Non-Primitive Values
+
+## Overview
+
+- Functions
+- Objects
+- Arrays
+
+---
+
+## Functions
+
+Functions can be defined as:
+
+```typescript
+function greet(name: string): string {
+  return `Hello, ${name}!`;
+}
+```
+
+---
+
+## Objects
+
+Objects are key-value pairs:
+
+```typescript
+const person: { name: string; age: number } = {
+  name: "Danny",
+  age: 25,
+};
+```
+
+---
+
+## Arrays
+
+Arrays hold a list of values:
+
+```typescript
+const numbers: number[] = [1, 2, 3, 4, 5];
+
+const names: Array<string> = ["Danny", "Aka", "Ilham"];
+```
+
+---
+
+## Summary
+
+- Functions are defined with parameters and return types
+- Objects are key-value pairs with specific types
+- Arrays can hold a list of values with specific types
+
+---
