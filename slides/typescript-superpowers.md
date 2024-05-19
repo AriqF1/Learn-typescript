@@ -364,3 +364,11 @@ class GenericNumber<T> {
 Let's build a Cashier Application using TypeScript!
 
 ---
+
+## Demo Time!
+
+---
+
+## Let's start coding!
+
+---
