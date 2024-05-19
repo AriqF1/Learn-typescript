@@ -239,3 +239,60 @@ const names: Array<string> = ["Danny", "Aka", "Ilham"];
 - Arrays can hold a list of values with specific types
 
 ---
+
+# Interfaces and Type Aliases
+
+## Overview
+
+- Type Aliases
+- Interfaces
+- Recursive Types
+
+---
+
+## Type Aliases
+
+Type aliases allow you to create a new name for a type:
+
+```typescript
+type UserID = string | number;
+
+type User = {
+  id: UserID;
+  name: string;
+};
+```
+
+---
+
+## Interfaces
+
+Interfaces define the structure of an object:
+
+```typescript
+interface User {
+  id: UserID;
+  name: string;
+  isAdmin?: boolean;
+}
+```
+
+---
+
+## Recursive Types
+
+Recursive types can reference themselves:
+
+```typescript
+type TreeNode = {
+  value: number;
+  left?: TreeNode;
+  right?: TreeNode;
+};
+```
+
+## Summary
+
+- Type aliases simplify complex types definitions
+- Interfaces ensure consistent object structures
+- Recursive types enable self-referencing structures
