@@ -7,7 +7,11 @@ export class CartService {
   private cart: CartItem[] = [];
 
   addToCart(code: string, qty: number): void {
-    const product = productService.findProductByCode(code);
+    const product = productService.getProductByUniqueProperty<string>(
+      "code",
+      code,
+    );
+
     if (!product) {
       window.alert("Invalid product code!");
       return;

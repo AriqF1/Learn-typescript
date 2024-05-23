@@ -8,9 +8,12 @@ export class ProductService {
     { code: "D", name: "Pocari Sweat", price: 8000 },
   ];
 
-  findProductByCode(code: string): Product | undefined {
+  getProductByUniqueProperty<T>(
+    property: keyof Product,
+    value: T,
+  ): Product | undefined {
     return this.products.find(
-      (product) => product.code === code.toUpperCase(),
+      (product) => product[property] === value,
     );
   }
 
