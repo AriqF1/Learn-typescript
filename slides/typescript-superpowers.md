@@ -520,14 +520,6 @@ Let's build a Cashier Application using TypeScript!
 
 ---
 
-## Integrating with Product API
-
-- Define the Product API Response Type using Generics
-- Fetch products from the API
-- Adjust the Cart Service according to the Product API Response
-
----
-
 ## Congratulations!
 
 You have successfully built a Cashier Application using TypeScript!
