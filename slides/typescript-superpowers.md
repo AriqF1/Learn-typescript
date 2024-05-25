@@ -35,14 +35,6 @@ style: |
 
 ---
 
-## TypeScript Adoption
-
-- Used by large companies
-- Popular in modern web development frameworks
-- Growing demand in the job market
-
----
-
 ## Course Overview
 
 1. Introduction
@@ -52,6 +44,14 @@ style: |
 5. Generics Type
 6. Projects (Cashier Application)
 7. Wrap Up
+
+---
+
+## TypeScript Adoption
+
+- Used by large companies
+- Popular in modern web development frameworks
+- Growing demand in the job market
 
 ---
 
