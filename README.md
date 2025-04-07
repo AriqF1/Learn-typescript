@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# TypeScript Superpowers Course
+# TypeScript
 
 Welcome to the TypeScript Superpowers Course! This course is designed to help you learn TypeScript from the basics to more advanced concepts. By the end of this course, you'll be able to confidently use TypeScript in real-world projects.
 
