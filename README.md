@@ -70,17 +70,3 @@ typescript-superpowers
 ├── README.md
 ├── tsconfig.json
 ```
-
-- `dist`: Contains the compiled TypeScript files.
-- `materials`: Contains source code that related to the slides.
-- `public`: Contains the html file for the project.
-- `slides`: Contains the slides for the course.
-- `src`: Contains the source code for the Cashier App project.
-
-## Outro
-
-I hope you enjoy this course and find it helpful in learning TypeScript. If you have any questions or feedback, feel free to reach out to me. Happy coding! 🚀
-=======
-# Learn-typescript
-This is my personal repository for learning TypeScript, a powerful superset of JavaScript that adds static typing. It's great for building scalable, maintainable, and safer applications with fewer runtime errors.
->>>>>>> 80f0b9787eecbd66f24db2ee4f391befb495bd20
