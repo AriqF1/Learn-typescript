@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TypeScript Superpowers Course
 
 Welcome to the TypeScript Superpowers Course! This course is designed to help you learn TypeScript from the basics to more advanced concepts. By the end of this course, you'll be able to confidently use TypeScript in real-world projects.
@@ -79,3 +80,7 @@ typescript-superpowers
 ## Outro
 
 I hope you enjoy this course and find it helpful in learning TypeScript. If you have any questions or feedback, feel free to reach out to me. Happy coding! 🚀
+=======
+# Learn-typescript
+This is my personal repository for learning TypeScript, a powerful superset of JavaScript that adds static typing. It's great for building scalable, maintainable, and safer applications with fewer runtime errors.
+>>>>>>> 80f0b9787eecbd66f24db2ee4f391befb495bd20
